@@ -1,0 +1,56 @@
+footer {
+	position: relative;
+	min-height: 100vh;
+}
+footer img{
+	width: 100%;
+	height: 35vw;
+}
+footer section{
+	position: relative;
+	bottom: 10vw;
+}
+footer .footer{
+	position: absolute;
+	width: 50%;
+	top: 10vw;
+}
+footer .footer *{
+	margin: 0;
+} 
+footer .footer span{
+	font-size: 2vw;
+	position: absolute;
+}
+footer .footer span:first-of-type{
+	top: 5vw;
+
+}
+footer .footer span:last-of-type{
+	top: 10vw;
+}
+footer .footer p{
+	position: absolute;
+	top: 15vw;
+}
+footer .footer hr{
+	position: absolute;
+	top: 9vw;
+	width: 50vw;
+	color: #000;
+}
+.links{
+	position: absolute;
+	right: 0;
+	top: 10vw;
+	background: #D9BAA4;
+	font-size: 3vw;
+	width: 50%;
+	text-align: center;
+	margin: 0;
+	height: 14vw;
+	padding-top: 3vw;
+}
+.links a{
+	color: #3a3133;
+}

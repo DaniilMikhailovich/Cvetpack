@@ -1,0 +1,14 @@
+h1{
+	font-family: 'Lobster', cursive;
+	font-size: 12vw;
+	text-align: center;
+	margin: 0;
+	color: #FF6F3D;
+}
+header{
+	min-height: 100vh;
+	position: relative;
+	background: url(..//img/c398fd21211d4c87aa5d3e4bad4dd32d.png) center 12vw no-repeat,
+	url(../img/bg2.png) center 100% no-repeat;
+	background-size: 50%, 100%;
+}

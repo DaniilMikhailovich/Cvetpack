@@ -1,0 +1,35 @@
+.price{
+	position: relative;
+	min-height: 100vh;
+	background: url(..//img/bgg.png) center 12vw no-repeat,linear-gradient(to right, #D9BAA4 20%, #EDDFCD 20%);
+	background-size: contain, contain;
+}
+.price img{
+	position: absolute;
+	width: 30vw;
+	top: 10vw;
+	left: 10vw;
+}
+.price p:first-of-type{
+	position: absolute;
+	width: 58vw;
+	right: 0;
+	font-size: 2vw;
+	text-align: center;
+	top: 10vw;
+}
+.price h2{
+	position: absolute;
+	width: 17vw;
+	right: 20vw;
+	top: 35vw;
+	font-size: 2vw;
+	text-align: center;
+}
+.price p:last-of-type{
+	position: absolute;
+	right: 13vw;
+	top: 43vw;
+	font-size: 2vw;
+	text-align: center;
+}

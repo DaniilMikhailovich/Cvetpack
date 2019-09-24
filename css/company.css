@@ -1,0 +1,45 @@
+.company{
+	position: relative;
+	min-height: 100vh;
+	background: url(..//img/bgg.png) center 12vw no-repeat;
+	background-size: contain;
+}
+.company img:first-of-type{
+	position: absolute;
+	top: 0;
+	left: 20vw;
+	width: 22vw;
+}
+.company img:last-of-type{
+	position: absolute;
+	top: 10vw;
+	left: 0vw;
+	width: 35vw;
+}
+.company h2{
+	margin: 0;
+	color: #FF6F3D;
+	width: 50vw;
+	left: 70vw;
+	text-align: center;
+	text-transform: uppercase;
+	position: absolute;
+	top: 13vw;
+	font-size: 4vw;
+	transform: translate(-50%, -50%);
+}
+.company p{
+	text-align: center;
+	color: #FF6F3D;
+	margin: 0;
+	position: absolute;
+	width: 50vw;
+	left: 45vw;
+	top: 20vw;
+}
+.company span{
+	position: absolute;
+	color: #FF6F3D;
+	right: 0;
+	font-size: 2vw
+}

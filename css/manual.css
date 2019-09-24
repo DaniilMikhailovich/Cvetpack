@@ -1,0 +1,74 @@
+section.manual{
+	min-height: 100vh;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+	background: url(..//img/bgg.png) center 18vw no-repeat;
+	background-size: contain;
+}
+section.manual>h2, section.manual>p{
+  flex-basis: 100%;
+	flex-wrap: wrap;
+	color: #3E503C;
+}
+.manual>p{
+	font-weight: bold;
+	margin: 0;
+	font-size: 2vw;
+	top: 6vw;
+	position: absolute;
+	left: 1vw;
+	writing-mode: vertical-lr;
+}
+.manual>h2::after {
+	content: '';
+	margin-top: 1vw;
+	left: 0;
+	display: block;
+	height: 5px;
+	width: 70%;
+	background-color: #3E503C;
+	position: absolute;
+}
+.manual article{
+  perspective: 1000px;
+	transform-style: preserve-3d;
+}
+.manual .card-item{
+	position: relative;
+	text-align: center;
+	background: linear-gradient(#F3ECDB 55%,#3E503C 57%);
+	border: 0.1vw solid #3E503C;
+	border-radius: 0.3vw;
+	color: #FF6F3D;
+  font-size: 2.1vw;
+  width: 17vw;
+	height: 27vw;
+	padding: 0.5vw 0.1vw;
+  transition: transform 0.2s;
+  -webkit-transition: transform 0.2s;
+  -moz-transition: transform 0.2s;
+  -ms-transition: transform 0.2s;
+  -o-transition: transform 0.2s;
+}
+.manual .card-item p:first-of-type{
+	font-size: 1.5vw;
+	bottom: 8vw;
+	width: 100%;
+}
+.manual .card-item p:last-of-type{
+	font-size: 1.7vw;
+	font-weight: bold;
+	bottom: 1vw;
+	width: 100%;
+}
+.manual.card-item p{
+	margin: 0;
+	position: absolute;
+}
+
+.manual .card-item img{
+	height: 55%
+}
