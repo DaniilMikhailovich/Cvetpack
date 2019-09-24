@@ -4,6 +4,9 @@ body{
 	background-color: #F3ECDB;
 	box-sizing: border-box;
 }
+img{
+	box-shadow: 1vw 1vw 2vw #000;
+}
 a{
 	text-decoration: none;
 }

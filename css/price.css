@@ -7,7 +7,7 @@
 .price img{
 	position: absolute;
 	width: 30vw;
-	top: 10vw;
+	top: 6vw;
 	left: 10vw;
 }
 .price p, .price h2{
@@ -16,23 +16,31 @@
 .price p:first-of-type{
 	position: absolute;
 	width: 58vw;
-	right: 0;
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 0.1vw;
 	font-size: 2vw;
+	line-height: 2.5vw;
+	right: 0;
 	text-align: center;
-	top: 10vw;
+	top: 3vw;
 }
 .price h2{
 	position: absolute;
-	width: 17vw;
+	font-family: 'Lobster', cursive;
+	text-shadow: 0.3vw 0.3vw 0.3vw #3E503C;
+	width: 20vw;
 	right: 20vw;
-	top: 35vw;
-	font-size: 2vw;
+	top: 32vw;
+	font-size: 2.5vw;
 	text-align: center;
 }
 .price p:last-of-type{
 	position: absolute;
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 0.1vw;
+	font-size: 2vw;
 	right: 13vw;
-	top: 43vw;
+	top: 42vw;
 	font-size: 2vw;
 	text-align: center;
 }

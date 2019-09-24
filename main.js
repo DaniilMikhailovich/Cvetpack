@@ -1,4 +1,4 @@
-const cards = document.querySelectorAll('article');
+const cards = document.querySelectorAll('.js');
 for (let i = 0; i < cards.length; i++) {
     const card = cards[i];
     card.addEventListener('mousemove', startRotate);

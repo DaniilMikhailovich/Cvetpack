@@ -1,7 +1,7 @@
 .company{
 	position: relative;
 	min-height: 100vh;
-	margin-bottom: 3vw;
+	margin-bottom: 5.5vw;
 }
 .company img:first-of-type{
 	position: absolute;
@@ -18,6 +18,9 @@
 .company h2{
 	margin: 0;
 	color: #FF6F3D;
+	font-family: 'Lobster', cursive;
+	text-shadow: 0.5vw 0.5vw 0.5vw #3E503C;
+	letter-spacing: 0.2vw;
 	width: 50vw;
 	left: 70vw;
 	text-align: center;
@@ -32,13 +35,22 @@
 	color: #FF6F3D;
 	margin: 0;
 	position: absolute;
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 0.2vw;
+	font-size: 1.5vw;
+	line-height: 3vw;
 	width: 50vw;
 	left: 45vw;
 	top: 20vw;
 }
 .company span{
 	position: absolute;
+	font-size: 2vw;
 	color: #FF6F3D;
-	right: 0;
-	font-size: 2vw
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 0.2vw;
+	font-size: 1.3vw;
+	right: 2vw;
+	top: 0vw;
+	font-weight: bold;
 }

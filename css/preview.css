@@ -7,13 +7,19 @@
 .preview h2{
 	margin: 0;
 	color: #FF6F3D;
+	font-family: 'Pacifico', cursive;;
 	position: absolute;
-	left: 70vw;
+	letter-spacing: 0.2vw;
+	font-size: 2vw;
+	left: 65vw;
 	top: 5vw;
 }
 .preview p:first-of-type{
 	position: absolute;
-	width: 20vw;
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 0.2vw;
+	font-size: 1.3vw;
+	width: 25vw;
 	text-align: center;
 	top: 20vw;
 	color: #FF6F3D;
@@ -24,7 +30,10 @@
 	position: absolute;
 	font-size: 2vw;
 	color: #FF6F3D;
-	right: 0;
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 0.2vw;
+	font-size: 1.3vw;
+	right: 2vw;
 	top: 43vw;
 	font-weight: bold;
 }

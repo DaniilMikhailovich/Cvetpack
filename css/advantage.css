@@ -6,10 +6,15 @@ section.advantage{
 	justify-content: space-around;
 	width: 100%;
 }
-section.advantage>h2, section.advantage>p{
+section.advantage>h2{
 	flex-basis: 100%;
 	color: #3E503C;
 	flex-wrap: wrap;
+	margin-top: 2vw;
+	color: #FF6F3D;
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 0.2vw;
+	font-size: 2vw;
 }
 section.advantage>p{
 	font-weight: bold;
@@ -22,10 +27,10 @@ section.advantage>p{
 }
 section.advantage>h2::after {
 	content: '';
-	margin-top: 1vw;
+	margin-top: 2vw;
 	left: 0;
 	display: block;
-	height: 5px;
+	height: 0.2vw;
 	width: 70%;
 	background-color: #3E503C;
 	position: absolute;
@@ -41,8 +46,8 @@ section.advantage>h2::after {
 	background: linear-gradient(#F3ECDB 52%,#3E503C 57%);
 	border: 0.1vw solid #3E503C;
 	border-radius: 0.5vw;
-  color: #FF6F3D;
-  font-size: 2.1vw;
+	color: #FF6F3D;
+	font-family: 'Pacifico', cursive;
   width: 17vw;
 	height: 27vw;
 	padding: 0.5vw 0.1vw;
@@ -53,15 +58,20 @@ section.advantage>h2::after {
   -o-transition: transform 0.2s;
 }
 .advantage .card-item p:first-of-type{
-	font-size: 1.5vw;
-	bottom: 8vw;
+	font-size: 1.3vw;
+	line-height: 1.7vw;
+	bottom: 8.5vw;
 	width: 100%;
 }
 .advantage .card-item p:last-of-type{
-	font-size: 3vw;
+	font-size: 2.8vw;
+	line-height: 4vw;
 	font-weight: bold;
 	bottom: 1vw;
 	width: 100%;
+}
+.advantage article:last-of-type .card-item p{
+	margin-bottom: 1vw;
 }
 .card-item p{
 	margin: 0;
@@ -69,5 +79,6 @@ section.advantage>h2::after {
 }
 
 .advantage .card-item img{
-	height: 55%
+	height: 55%;
+	box-shadow: none;
 }

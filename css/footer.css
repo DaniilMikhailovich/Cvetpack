@@ -14,24 +14,42 @@ footer .footer{
 	position: absolute;
 	width: 50%;
 	top: 10vw;
+	color: #FF6F3D;
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 0.2vw;
+	font-size: 1.5vw;
+	line-height: 3vw;
 }
 footer .footer *{
-	margin: 0;
+	margin: 0 1vw;
 } 
 footer .footer span{
 	font-size: 2vw;
 	position: absolute;
 }
 footer .footer span:first-of-type{
-	top: 5vw;
-
+	top: 3vw;
+}
+footer .footer span:first-of-type::after{
+	content: '';
+	margin-top: 1vw;
+	left: 2vw;
+	display: block;
+	height: 0.2vw;
+	width: 44vw;
+	background-color: #3E503C;
+	position: absolute;	
 }
 footer .footer span:last-of-type{
-	top: 10vw;
+	top: 7vw;
 }
 footer .footer p{
 	position: absolute;
-	top: 15vw;
+	text-align: center;
+	line-height: 2vw;
+	font-size: 1.7vw;
+	letter-spacing: 0.3vw;
+	top: 10vw;
 }
 footer .footer hr{
 	position: absolute;
@@ -40,17 +58,48 @@ footer .footer hr{
 	color: #000;
 }
 .links{
+	overflow: hidden;
 	position: absolute;
+	font-family: 'Lobster', cursive;
+	letter-spacing: 0.3vw;
+	font-size: 4vw;
+	line-height: 5vw;
 	right: 0;
 	top: 10vw;
-	background: #D9BAA4;
-	font-size: 3vw;
+	background: #3E503C;
+	text-shadow: 0.3vw 0.3vw 0.3vw #000;
 	width: 50%;
 	text-align: center;
 	margin: 0;
-	height: 14vw;
+	height: 17vw;
 	padding-top: 3vw;
 }
+.links a:last-of-type{
+	font-size: 2.5vw
+}
+.links::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: blur(1vw);
+  width: 6vw;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  transform: translateX(-5em) skewX(-45deg);
+  animation: move-light 3s infinite;
+}
 .links a{
-	color: #3a3133;
+	color: #FF6F3D;
+}
+@keyframes move-light{
+    from{
+        transform: translateX(-5em) skewX(-45deg)
+    }
+    to{
+        transform: translateX(17em) skewX(-45deg)
+    }
+    to{
+        transform: translateX(17em) skewX(-45deg)
+    }
 }
