@@ -1,8 +1,7 @@
 .company{
 	position: relative;
 	min-height: 100vh;
-	background: url(..//img/bgg.png) center 12vw no-repeat;
-	background-size: contain;
+	margin-bottom: 3vw;
 }
 .company img:first-of-type{
 	position: absolute;

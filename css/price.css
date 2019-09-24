@@ -1,14 +1,17 @@
 .price{
 	position: relative;
 	min-height: 100vh;
-	background: url(..//img/bgg.png) center 12vw no-repeat,linear-gradient(to right, #D9BAA4 20%, #EDDFCD 20%);
-	background-size: contain, contain;
+	background: linear-gradient(to right, #3E503C 20%, #F3ECD8 20%);
+	background-size: contain;
 }
 .price img{
 	position: absolute;
 	width: 30vw;
 	top: 10vw;
 	left: 10vw;
+}
+.price p, .price h2{
+	color: #FF6F3D;
 }
 .price p:first-of-type{
 	position: absolute;

@@ -5,22 +5,13 @@ section.manual{
 	flex-wrap: wrap;
 	justify-content: space-around;
 	width: 100%;
-	background: url(..//img/bgg.png) center 18vw no-repeat;
+	background: url(..//img/bgg.png) center 10vw no-repeat;
 	background-size: contain;
 }
-section.manual>h2, section.manual>p{
+section.manual>h2{
   flex-basis: 100%;
 	flex-wrap: wrap;
 	color: #3E503C;
-}
-.manual>p{
-	font-weight: bold;
-	margin: 0;
-	font-size: 2vw;
-	top: 6vw;
-	position: absolute;
-	left: 1vw;
-	writing-mode: vertical-lr;
 }
 .manual>h2::after {
 	content: '';
