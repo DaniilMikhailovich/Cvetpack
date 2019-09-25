@@ -82,3 +82,45 @@ section.advantage>h2::after {
 	height: 55%;
 	box-shadow: none;
 }
+@media screen and (max-width:480px) {
+	section.advantage{
+		min-height: 410vw;
+		justify-content: space-around;
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+	}
+	section.advantage>h2{
+		align-self: flex-start;
+	}
+	
+	section.advantage>h2::after {
+		height: 1vw;
+	}
+
+	.advantage .card-item{
+		border: 0.3vw solid #3E503C;
+		width: 80vw;
+		height: 120vw;
+		border-radius: 2vw;
+		padding: 0.5vw 0.1vw;
+	}
+	.advantage .card-item p:first-of-type{
+		font-size: 5vw;
+		bottom: 30vw;
+		width: 100%;
+	}
+
+	.advantage .card-item p{
+		margin: 0;
+		position: absolute;
+		font-size: 7vw;
+		text-align: center;
+		width: 100%;
+		bottom: 15vw;
+	}
+	
+	.advantage .card-item img{
+		height: 55%
+	}
+}

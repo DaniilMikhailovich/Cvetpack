@@ -59,3 +59,36 @@
 	position: absolute;
 	top: 40vw;
 }
+@media screen and (max-width:480px) {
+	.preview{
+		min-height: 100vw;
+		background: linear-gradient(to right, #3E503C 50%, #F3ECDB 50%);
+		background-size: 100%;
+	}
+	.preview h2{
+		left: 60vw;
+		top: 6vw;
+		text-align: center;
+	}
+	.preview p:first-of-type{
+		width: 35vw;
+		top: 45vw;
+		left: 80vw;
+	}
+	.preview p span{
+		font-size: 3vw;
+		top: 100vw;
+	}
+	.preview img:first-of-type{
+		display: none;
+	}
+	.preview img:last-of-type{
+		top: 21vw;
+		left: -10vw;
+		width: 85vw;
+		transform: rotate(-90deg);
+	}
+	.preview::after{
+		top: 99.8vw;
+	}
+}

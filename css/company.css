@@ -54,3 +54,32 @@
 	top: 0vw;
 	font-weight: bold;
 }
+@media screen and (max-width:480px) {
+	.company{
+		min-height: 65vw;
+	}
+	.company img:first-of-type{
+		display: none;
+	}
+	.company img:last-of-type{
+		position: absolute;
+		top: 10vw;
+		left: 2vw;
+		width: 43vw;
+	}
+	.company h2{
+		width: 50vw;
+		left: 70vw;
+		top: 15vw;
+		font-size: 4.5vw;
+	}
+	.company p{
+		width: 51vw;
+		left: 45vw;
+		top: 25vw;
+	}
+	.company span{
+		right: 0;
+		font-size: 3.5vw
+	}
+}
