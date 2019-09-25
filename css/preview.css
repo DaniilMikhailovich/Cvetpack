@@ -69,14 +69,17 @@
 		left: 60vw;
 		top: 6vw;
 		text-align: center;
+		letter-spacing: 0.2vw;
+		font-size: 5vw;
 	}
 	.preview p:first-of-type{
 		width: 35vw;
-		top: 45vw;
+		top: 60vw;
 		left: 80vw;
+		font-size: 4vw;
 	}
 	.preview p span{
-		font-size: 3vw;
+		font-size: 4vw;
 		top: 100vw;
 	}
 	.preview img:first-of-type{

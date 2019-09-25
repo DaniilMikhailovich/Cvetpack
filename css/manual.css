@@ -78,23 +78,36 @@ section.manual>h2{
 	}
 	section.manual>h2{
 		align-self: flex-start;
+		font-size: 5vw;
 	}
 	.manual>h2::after {
 		height: 1vw;
+		margin-top: 0.5vw;
 	}
-	.manual .card-item{
+	.manual .card-items{
 		border: 0.3vw solid #3E503C;
 		border-radius: 2vw;
 		width: 80vw;
 		height: 120vw;
 	}
-	.manual .card-item p:first-of-type{
+	.manual .card-items p:first-of-type{
 		font-size: 6vw;
-		width: 99%;
+		line-height: 10vw;
+		bottom: 7vw;
 	}
 
 	.manual .card-item img{
 		min-height: 55%;
-		height: 55%;
+
+	}
+
+	.manual .card-items:hover{
+		transform: scale(1.2);
+	}
+}
+
+@media screen and (min-width:480px) and (max-width:900px) {
+	.manual .card-items:hover{
+		transform: scale(1.2);
 	}
 }
