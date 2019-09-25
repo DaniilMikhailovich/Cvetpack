@@ -56,7 +56,7 @@
 }
 @media screen and (max-width:480px) {
 	.company{
-		min-height: 65vw;
+		min-height: 75vw;
 	}
 	.company img:first-of-type{
 		display: none;
@@ -70,16 +70,18 @@
 	.company h2{
 		width: 50vw;
 		left: 70vw;
-		top: 15vw;
-		font-size: 4.5vw;
+		top: 18vw;
+		font-size: 7.5vw;
 	}
 	.company p{
-		width: 51vw;
-		left: 45vw;
-		top: 25vw;
+		width: 50vw;
+		left: 47vw;
+		top: 30vw;
+		font-size: 4.5vw;
+		line-height: 4.5vw;
 	}
 	.company span{
-		right: 0;
-		font-size: 3.5vw
+		right: 0.2vw;
+		font-size: 4vw;
 	}
 }

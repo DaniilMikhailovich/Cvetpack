@@ -46,7 +46,7 @@
 }
 @media screen and (max-width:480px) {
 	.price{
-		min-height: 64vw;
+		min-height: 70vw;
 		background: linear-gradient(to right, #3E503C 35%, #F3ECD8 35%);
 		background-size: contain;
 	}
@@ -57,24 +57,19 @@
 	}
 	
 	.price p:first-of-type{
-		position: absolute;
-		width: 51vw;
-		left: 45vw;
-		font-size: 2.5vw;
-		text-align: center;
-		top: 0vw;
 		display: none;
 	}
 	.price h2{
 		width: 50vw;
 		left: 46vw;
-		top: 15vw;
-		font-size: 5vw;
+		top: 13vw;
+		font-size: 7vw;
 	}
 	.price p:last-of-type{
-		left: 47vw;
+		left: 45vw;
 		top: 50vw;
 		font-size: 4vw;
-		width: 50vw;
+		width: 55vw;
+		letter-spacing: 0.1vw;
 	}
 }

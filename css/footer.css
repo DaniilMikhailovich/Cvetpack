@@ -97,3 +97,43 @@ footer .footer p{
         transform: translateX(17em) skewX(-45deg)
     }
 }
+
+@media screen and (max-width:480px) {
+	footer {
+		min-height: 20vw;
+	}
+	footer img{
+		width: 100%;
+	}
+	footer section{
+		bottom: 10vw;
+	}
+	
+	footer .footer span{
+		font-size: 3.5vw;
+	}
+	footer .footer span:first-of-type{
+		top: 2vw;
+	}
+	footer .footer span:first-of-type::after{
+		margin-top: 2vw;
+		left: 2vw;
+	}
+	footer .footer span:last-of-type{
+		top: 8vw;
+	}
+	footer .footer p{
+		text-align: start;
+		line-height: 4vw;
+		font-size: 3.5vw;
+		letter-spacing: 0.3vw;
+		top: 12vw;
+	}
+	.links{
+		height: 21vw;
+		padding-top: 5vw;
+	}
+	.links a:last-of-type{
+		font-size: 3vw
+	}
+}

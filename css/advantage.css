@@ -92,10 +92,13 @@ section.advantage>h2::after {
 	}
 	section.advantage>h2{
 		align-self: flex-start;
+		margin-top: 5vw;
+		font-size: 4vw;
 	}
 	
 	section.advantage>h2::after {
 		height: 1vw;
+		margin-top: 0.5vw
 	}
 
 	.advantage .card-item{
@@ -106,21 +109,27 @@ section.advantage>h2::after {
 		padding: 0.5vw 0.1vw;
 	}
 	.advantage .card-item p:first-of-type{
-		font-size: 5vw;
-		bottom: 30vw;
+		font-size: 7vw;
+		line-height: 8vw;
+		bottom: 35vw;
 		width: 100%;
 	}
 
-	.advantage .card-item p{
+	.advantage .card-item p:last-of-type{
 		margin: 0;
 		position: absolute;
-		font-size: 7vw;
+		font-size: 10vw;
 		text-align: center;
 		width: 100%;
-		bottom: 15vw;
+		bottom: 8vw;
+		line-height: 10vw;
 	}
 	
 	.advantage .card-item img{
 		height: 55%
+	}
+
+	.advantage article:last-of-type .card-item p{
+		margin-bottom: 10vw;
 	}
 }
