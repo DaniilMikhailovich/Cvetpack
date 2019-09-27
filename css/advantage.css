@@ -81,7 +81,15 @@ section.advantage>h2::after {
 .advantage .card-item img{
 	height: 55%;
 	box-shadow: none;
+	max-width: 90%;
 }
+
+.advantage .js:last-of-type .card-item img{
+	height: initial;
+	width: 90%;
+	margin-top: 1.5vw;
+}
+
 @media screen and (max-width:480px) {
 	section.advantage{
 		min-height: 410vw;
@@ -132,4 +140,7 @@ section.advantage>h2::after {
 	.advantage article:last-of-type .card-item p{
 		margin-bottom: 10vw;
 	}
+
+	.advantage .js:last-of-type .card-item img{
+		margin-top: 4.5vw;
 }
