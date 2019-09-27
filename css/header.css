@@ -9,8 +9,8 @@ h1{
 header{
 	min-height: 100vh;
 	position: relative;
-	background: url(..//img/c398fd21211d4c87aa5d3e4bad4dd32d.png) center 12vw no-repeat,
-	url(../img/bg2.png) center 100% no-repeat;
+	background: url(..//img/c398fd21211d4c87aa5d3e4bad4dd32d.webp) center 12vw no-repeat,
+	url(../img/bg2.webp) center 100% no-repeat;
 	background-size: 50%, 90%;
 }
 .phone, .email {
@@ -46,8 +46,8 @@ header{
 	}
 	header{
 		min-height: 77vw;
-		background: url(..//img/c398fd21211d4c87aa5d3e4bad4dd32d.png) center 21vw no-repeat,
-		url(../img/bg2.png) center 100% no-repeat;
+		background: url(..//img/c398fd21211d4c87aa5d3e4bad4dd32d.webp) center 21vw no-repeat,
+		url(../img/bg2.webp) center 100% no-repeat;
 		background-size: 100%, 95%;
 	}
 	.phone, .email {
