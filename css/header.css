@@ -9,18 +9,66 @@ h1{
 header{
 	min-height: 100vh;
 	position: relative;
-	background: url(..//img/c398fd21211d4c87aa5d3e4bad4dd32d.png) center 12vw no-repeat,
-	url(../img/bg2.png) center 100% no-repeat;
-	background-size: 50%, 100%;
+	background: url(..//img/c398fd21211d4c87aa5d3e4bad4dd32d.webp) center 12vw no-repeat,
+	url(../img/bg2.webp) center 100% no-repeat;
+	background-size: 50%, 90%;
+}
+.phone, .email {
+	text-align: center;
+	display: block;
+	position: absolute;
+	top: 12vh;
+	padding: 2vw 3vw;
+	border: 0.1vw solid #FF6F3D;
+	border-radius: 1vw;
+	color: #FF6F3D;
+	font-family: 'Lobster', cursive;
+	font-size: 1.6vw;
+	transition: 0.2s;
+}
+
+.phone:hover, .email:hover {
+	background-color: #FF6F3D;
+	color: #ffffff;
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+.email {
+	right:2vw;
+}
+
+.phone {
+	left:2vw;
 }
 @media screen and (max-width:480px) {
 	h1{
-		font-size: 23vw;
+		font-size: 21vw;
 	}
 	header{
-		min-height: 38vh;
-		background: url(..//img/c398fd21211d4c87aa5d3e4bad4dd32d.png) center 21vw no-repeat,
-		url(../img/bg2.png) center 100% no-repeat;
+		min-height: 77vw;
+		background: url(..//img/c398fd21211d4c87aa5d3e4bad4dd32d.webp) center 21vw no-repeat,
+		url(../img/bg2.webp) center 100% no-repeat;
 		background-size: 100%, 95%;
+	}
+	.phone, .email {
+		top: 38vw;
+		padding: 2vw 3vw;
+		border: 0.2vw solid #FF6F3D;
+		border-radius: 1.5vw;
+		font-size: 3.5vw;
+	}
+	
+	.phone:hover, .email:hover {
+		background-color: inherit;
+		color: #FF6F3D;
+		transform: none;
+		transition: 0.2s;
+	}
+	.email {
+		right:3vw;
+	}
+	
+	.phone {
+		left:3vw;
 	}
 }
